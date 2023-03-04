@@ -1,0 +1,12 @@
+package br.com.e2etreinamentos;
+
+public class ExecutaMetodo {
+
+	public static void main(String[] args) {
+		MetodoVazio metodo = new MetodoVazio();
+		
+		metodo.mensagen();
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package encapsulamento;
+
+public class ContaCorrrente {
+	private double saldo = 0;
+}

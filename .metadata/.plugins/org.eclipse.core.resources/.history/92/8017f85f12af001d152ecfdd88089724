@@ -1,0 +1,14 @@
+package percorrerstring;
+
+public class PercorrerString {
+
+	public static void main(String[] args) {
+		String mensagem = "Eu vou conseguir!";
+		for (int i = 0; i < mensagem.length(); i++) {
+
+		}
+		System.out.println(mensagem.charAt(0));
+
+	}
+
+}

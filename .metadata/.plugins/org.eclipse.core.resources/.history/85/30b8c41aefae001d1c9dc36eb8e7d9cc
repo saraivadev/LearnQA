@@ -1,0 +1,18 @@
+package br.com.e2etreinamentos;
+
+public class MetodoAtributo {
+
+	public void digiteSuaIdade(int idade) {
+	
+		System.out.println("A sua idade é: " + idade);
+		
+		
+	}
+	
+	public String digiteSeuNome(String nome){
+		System.out.println(nome);
+		return nome;
+	}
+	
+
+}

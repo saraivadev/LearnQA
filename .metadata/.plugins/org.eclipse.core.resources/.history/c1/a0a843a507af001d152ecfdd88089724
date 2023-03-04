@@ -1,0 +1,10 @@
+package herança;
+
+public class Executa {
+public static void main(String[] args) {
+	
+	Carros simples = new Carros();
+	simples.ligar();
+	simples.desligar();
+}
+}

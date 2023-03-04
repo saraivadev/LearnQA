@@ -1,0 +1,16 @@
+package br.com.e2etreinamentos;
+
+public class MetodoRetorno {
+	
+	String nome = "Washington";
+	
+	public String nome() {
+		
+		System.out.println("Teste" + nome);
+		
+		return nome;
+		
+		
+	}
+
+}

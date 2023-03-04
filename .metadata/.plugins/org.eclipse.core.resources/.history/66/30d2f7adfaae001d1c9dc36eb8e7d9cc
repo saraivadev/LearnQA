@@ -1,0 +1,11 @@
+package encapsulamento;
+
+public class Caixa {
+	
+	public static void main (String [] args) {
+		ContaCorrrente cc = new ContaCorrrente();
+		
+		System.out.println(cc.getSaldo());
+	}
+
+}

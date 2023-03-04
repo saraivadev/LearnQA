@@ -1,0 +1,4 @@
+
+public class ContaCorrrente {
+	double saldo = 0;
+}
