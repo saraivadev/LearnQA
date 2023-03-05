@@ -1,0 +1,26 @@
+package curso;
+
+import java.util.ArrayList;
+
+public class Crud {
+
+
+	public static void	Listar(ArrayList<String> cursos){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+		
+	}
+	
+	public static void	Excluir(){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+
+		
+	}
+	
+	public static void	Cadastrar(ArrayList<String> cursos){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+		
+	}
+}

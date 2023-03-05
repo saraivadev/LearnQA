@@ -1,0 +1,11 @@
+package curso;
+
+public class Crud {
+
+
+	public static void	Listar(){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+		
+	}
+}

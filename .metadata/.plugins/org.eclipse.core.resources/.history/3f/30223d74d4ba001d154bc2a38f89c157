@@ -1,0 +1,45 @@
+package curso;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Cursos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> cursos = new ArrayList<String>();
+
+		int opcao;
+
+		cursos.add("Teste de API");
+		cursos.add("Teste de UI");
+		cursos.add("Teste de Unit");
+		cursos.add("JavaScript");
+
+		System.out.println("******Bem vindo ao menu cursos!******\n");
+		System.out.println(
+				"Digite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		opcao = scanner.nextInt();
+
+		while (opcao == 1 || opcao == 2) {
+			
+			if(opcao == 1) {
+				CadastrarCurso();
+			} else (opcao == 2{
+				ExcluirCurso();
+			}
+			
+			
+			
+
+			System.out.println(
+					"Digite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		}
+
+		cursos.Listar();
+	}
+
+}

@@ -1,0 +1,55 @@
+package curso;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Cursos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> cursos = new ArrayList<String>();
+		
+		Crud crud = new Crud();
+
+		String opcao;
+
+		cursos.add("Teste de API");
+		cursos.add("Teste de UI");
+		cursos.add("Teste de Unit");
+		cursos.add("JavaScript");
+
+		System.out.println("******Bem vindo ao menu cursos!******\n");
+		System.out.println(
+				"Digite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		opcao = scanner.nextLine();
+			
+		while(opcao.equals("1") || opcao.equals("2")) {
+			
+			
+			System.out.println(
+					"Digite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		}
+		
+		System.out.println("Cursos cadastrados: "+cursos);
+		}
+			
+		}
+		
+		/*	Crud.Cadastrar(cursos);
+			Crud.Excluir();
+			Crud.Listar(cursos);*/
+		
+		
+			
+			
+
+			
+
+	
+	
+	
+
+

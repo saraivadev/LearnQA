@@ -1,0 +1,20 @@
+package curso;
+
+import java.util.ArrayList;	
+import java.util.Scanner;
+
+public class CadastrarCursos {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<String> curso = new ArrayList<String>(); 
+		 curso.add("JavaScript");
+		 curso.add("Teste de Api"); 
+		 curso.add("Teste de UI");
+		 curso.add("Teste de Unit");
+		 System.out.println("Digite 1 para inserir cursos, 2 para remover e qualquer tecla para listar os cursos cadastrado \n");      
+		 String opcao =scanner.nextline();
+		 
+	     
+ }   
+}
