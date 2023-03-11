@@ -1,0 +1,13 @@
+package curso;
+
+import org.junit.Test;
+
+public class AdmCursosTest {
+
+	@Test
+	public void testCadastrar() {
+		
+		
+	}
+
+}

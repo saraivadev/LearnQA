@@ -1,0 +1,14 @@
+package curso;
+
+import org.junit.Test;
+
+public class AdmCursosTest {
+
+	@Test
+	public void testCadastrar() {
+		
+		AdmCursos cursos = new AdmCursos();
+		cursos.cadastrar("Testes");
+	}
+
+}

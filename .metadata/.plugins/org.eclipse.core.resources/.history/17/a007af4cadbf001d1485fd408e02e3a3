@@ -1,0 +1,64 @@
+package curso;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class AdmCursos {
+	
+	String   opcao;
+	
+	ArrayList<Cursos> GradeCursos = new ArrayList<Cursos>();
+
+	Scanner scanner = new Scanner(System.in);
+
+	
+
+	
+	public String cadastrar(String disciplina){
+		
+		Cursos cursos = new Cursos(disciplina);
+
+		System.out.println("Digite o nome do Curso: \n");
+		disciplina = scanner.nextLine();
+		GradeCursos.add(cursos);
+		/*
+		 * System.out.println(
+		 * "\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n"
+		 * );
+		 * 
+		 * opcao = scanner.nextLine();
+		 * 
+		 * System.out.println("Curso cadastrado com sucesso: "+disciplina);
+		 */
+	}
+	
+	
+	
+	
+	
+	
+	
+/*	
+	public static void	Listar(ArrayList<String> cursos){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+		
+	}
+	
+	public static void	Excluir(){
+		
+		System.out.println("Digite o nome do curso a ser removido: \n");
+		int index = cursos.indexOf(scanner.nextLine());
+		cursos.remove(index);
+		System.out.println(
+				"\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		opcao = scanner.nextLine();
+		
+		System.out.println("Cursos excluído com sucesso!: \n");
+
+	}
+	*/
+	
+
+}

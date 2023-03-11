@@ -1,0 +1,41 @@
+package curso;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Crud {
+
+	
+	static String disciplina;
+	
+	Scanner scaner = new Scanner(System.in);
+
+	
+	public static void	Listar(ArrayList<String> cursos){
+		System.out.println("Cursos cadastrados: \n" + cursos);
+
+		
+	}
+	
+	public static void	Excluir(){
+		
+		
+		System.out.println("Cursos excluído com sucesso!: \n");
+
+
+		
+	}
+	
+	public void Cadastrar(){
+		System.out.println("Digite o nome do Curso: \n");
+		curso = scanner.nextLine();
+		cursos.add(curso);
+		
+		System.out.println("Curso cadastrado com sucesso: "+curso);
+		System.out.println(
+				"\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
+
+		opcao = scanner.nextLine();
+		
+		
+	}}

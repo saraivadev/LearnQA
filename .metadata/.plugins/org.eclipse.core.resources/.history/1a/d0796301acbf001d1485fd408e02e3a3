@@ -1,0 +1,14 @@
+package curso;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AdmCursosTest {
+
+	@Test
+	public void testCadastrar() {
+		fail("Not yet implemented");
+	}
+
+}
