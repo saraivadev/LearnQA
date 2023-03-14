@@ -1,69 +1,51 @@
 package curso;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class AdmCursos {
-	
-	String   opcao;
-	
-	ArrayList<Cursos> GradeCursos = new ArrayList<Cursos>();
 
-	Scanner scanner = new Scanner(System.in);
+	ArrayList<Cursos> gradeCursos = new ArrayList<Cursos>();
+	Cursos curso;
 
-	
+	public String cadastrar(String nome) {
+		String msg = "null";
+		if (nome == null) {
+			msg = "Cadastro não realizado";
 
-	
-	public String cadastrar(String disciplina){
-		
-
-		System.out.println("Digite o nome do Curso: \n");
-		disciplina = scanner.nextLine();
-		
-		Cursos cursos = new Cursos(disciplina);
-
-		
-		GradeCursos.add(cursos);
-		/*
-		 * System.out.println(
-		 * "\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n"
-		 * );
-		 * 
-		 * opcao = scanner.nextLine();
-		 * 
-		 * System.out.println("Curso cadastrado com sucesso: "+disciplina);
-		 */
-	return "Curso cadastrado com sucesso:";
-	
+		} else if (nome.isEmpty() || nome.isBlank()) {
+			msg = "Cadastro não realizado";
+		} else {
+			curso = new Cursos(nome);
+			gradeCursos.add(curso);
+			msg = "Cadastro realizado com sucesso";
+		}
+		return msg;
 	}
-	
-	
-	
-	
-	
-	
-	
-/*	
-	public static void	Listar(ArrayList<String> cursos){
-		System.out.println("Cursos cadastrados: \n" + cursos);
 
-		
+	public String Listar(String nome) {
+
+		String msg = "Curso: " + curso.getNome();
+
+		if (!nome.equals(curso.getNome())) {
+			msg = "Curso não encontrado";
+		}
+
+		return msg;
 	}
-	
-	public static void	Excluir(){
-		
-		System.out.println("Digite o nome do curso a ser removido: \n");
-		int index = cursos.indexOf(scanner.nextLine());
-		cursos.remove(index);
-		System.out.println(
-				"\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n");
 
-		opcao = scanner.nextLine();
-		
-		System.out.println("Cursos excluído com sucesso!: \n");
-
-	}
-	*/
-	
+	/*
+	 * public static void Excluir(){
+	 * 
+	 * System.out.println("Digite o nome do curso a ser removido: \n"); int index =
+	 * cursos.indexOf(scanner.nextLine()); cursos.remove(index); System.out.println(
+	 * "\nDigite 1 para cadastrar um curso. \nDigite 2 para remover um curso. \nDigite outra tecla para listar os cursos cadastrados. \n"
+	 * );
+	 * 
+	 * opcao = scanner.nextLine();
+	 * 
+	 * System.out.println("Cursos excluído com sucesso!: \n");
+	 * 
+	 * }
+	 */
 
 }

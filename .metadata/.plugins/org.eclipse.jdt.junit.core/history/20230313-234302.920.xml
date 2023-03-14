@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AdmCursosTest" project="primeiro.projeto" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="curso.AdmCursosTest" time="0.001">
+    <testcase name="testConsultaInvalido" classname="curso.AdmCursosTest" time="0.001"/>
+    <testcase name="testCadastrarNomeBranco" classname="curso.AdmCursosTest" time="0.0"/>
+    <testcase name="testConsultar" classname="curso.AdmCursosTest" time="0.0"/>
+    <testcase name="testCadastrar" classname="curso.AdmCursosTest" time="0.0"/>
+    <testcase name="testCadastrarNull" classname="curso.AdmCursosTest" time="0.0"/>
+    <testcase name="testCadastrarComEspaco" classname="curso.AdmCursosTest" time="0.0"/>
+  </testsuite>
+</testrun>
